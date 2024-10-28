@@ -4,6 +4,10 @@
 
 GitHub Profile Finder is a web application that allows users to search for GitHub profiles by username. It fetches user information from the GitHub API and displays relevant details such as the user's name, bio, followers, following, public repositories, and profile picture. This project is a great way to practice using APIs, handling asynchronous JavaScript, and building a user-friendly interface.
 
+## Live Demo
+
+Live Demo Link (https://github-profile-finder-sand.vercel.app/)
+
 ## Features
 
 - Search for GitHub users by their username.
