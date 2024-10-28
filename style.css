@@ -168,7 +168,7 @@ form {
   }
 }
 
-@media only screen and (min-height: 700px) {
+@media only screen and (min-height: 600px) {
   .result {
     margin-top: 15vh;
   }
