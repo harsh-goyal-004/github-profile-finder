@@ -28,7 +28,7 @@ GitHub Profile Finder is a web application that allows users to search for GitHu
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/github-profile-finder.git
+   git clone https://github.com/harsh-goyal-004/github-profile-finder.git
    
 2. Navigate to the project directory:
    ```bash
