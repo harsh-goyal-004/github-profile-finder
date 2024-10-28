@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  height: 17vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: #13171eba;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+form {
+  max-width: 285px;
+  position: relative;
+}
+
+.search input {
+  height: 14px;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  position: relative;
+  color: white;
+}
+
+.search button {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: none;
+  z-index: 20;
+  top: 0%;
+  right: 0%;
+  background-color: rgb(8, 133, 8);
+}
+
+.result {
+  margin-top: 15vh;
+}
+
+.card {
+  height: 60vh;
+  width: 80%;
+  border: 1.2px solid #cbcaca;
+  border-radius: 6px;
+  position: relative;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-container {
+  align-self: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  position: absolute;
+  top: -15%;
+  padding: 4px;
+  border: 1.5px solid darkgray;
+}
+
+.img-container img {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.info {
+  font-size: large;
+  padding: 20px;
+  margin-top: 35px;
+  font-weight: 700;
+}
+
+.info p {
+  padding-bottom: 14px;
+}
+
+.info a {
+  padding: 10px;
+  width: 150px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #c9d1d9;
+  background-color: #39393e;
+  word-spacing: 5px;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+@media only screen and (min-width: 320px) {
+  .header {
+    font-size: small;
+  }
+
+  .result {
+    margin-top: 25vh;
+  }
+  .card {
+    height: 105vh;
+    width: 80%;
+  }
+  .info {
+    margin-top: 15px;
+  }
+
+  .info p {
+    font-size: medium;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .result {
+    margin-top: 25vh;
+  }
+  .card {
+    height: 100vh;
+    width: 80%;
+  }
+  .info {
+  }
+
+  .info p {
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .result {
+    margin-top: 25vh;
+  }
+
+  .card {
+    height: 120vh;
+    width: 80%;
+  }
+  .info {
+    font-size: x-large;
+    padding: 20px;
+    margin-top: 35px;
+    font-weight: 700;
+  }
+  .info p {
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    height: 95vh;
+  }
+
+  .info a {
+    position: absolute;
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 964px) {
+  .card {
+    height: 75vh;
+  }
+
+  .info {
+    padding: 20px;
+    margin-top: 35px;
+    font-weight: 700;
+  }
+
+  .info p {
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .info a {
+    position: absolute;
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .card {
+    height: 40vh;
+    width: 50%;
+  }
+  .info {
+    font-size: x-large;
+    padding: 20px;
+    margin-top: 35px;
+    font-weight: 700;
+  }
+
+  .info p {
+    padding-bottom: 25px;
+  }
+}
